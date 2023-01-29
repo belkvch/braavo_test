@@ -1,0 +1,377 @@
+/* poppins-100 - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 100;
+    src: local(''),
+        url('../fonts/poppins-v20-latin-100.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/poppins-v20-latin-100.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* poppins-200 - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    src: local(''),
+        url('../fonts/poppins-v20-latin-200.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/poppins-v20-latin-200.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* poppins-300 - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    src: local(''),
+        url('../fonts/poppins-v20-latin-300.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/poppins-v20-latin-300.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* poppins-regular - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+        url('../fonts/poppins-v20-latin-regular.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/poppins-v20-latin-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* poppins-500 - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+        url('../fonts/poppins-v20-latin-500.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/poppins-v20-latin-500.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* poppins-600 - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+        url('../fonts/poppins-v20-latin-600.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/poppins-v20-latin-600.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* poppins-700 - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+        url('../fonts/poppins-v20-latin-700.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/poppins-v20-latin-700.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* poppins-800 - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    src: local(''),
+        url('../fonts/poppins-v20-latin-800.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/poppins-v20-latin-800.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* poppins-900 - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    src: local(''),
+        url('../fonts/poppins-v20-latin-900.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/poppins-v20-latin-900.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: #000000;
+    background-color: #F4EEEE;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 0px;
+    gap: 40px;
+    margin-top: 68px;
+    max-width: 320px;
+    margin: auto;
+}
+
+.text {
+    width: 261px;
+    height: 17px;
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 16px;
+    margin-top: 68px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.plans-variants {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 0px;
+    gap: 20px;
+
+    width: 320px;
+    height: 512px;
+}
+
+.one-plan {
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+
+    /* position: absolute; */
+    width: 320px;
+    height: 80px;
+    /* left: 0px; */
+    /* top: 0px; */
+    margin-bottom: 20px;
+
+    background: linear-gradient(111.68deg, rgba(255, 255, 255, 0.29) 7.59%, rgba(255, 255, 255, 0.39) 102.04%);
+    border: 1.28995px solid #FFFFFF;
+    backdrop-filter: blur(4.44364px);
+
+    border-radius: 10px;
+}
+
+.board-text {
+    height: 100px;
+}
+
+.optional-border {
+
+    position: absolute;
+    width: 320px;
+    height: 20px;
+    left: -1px;
+    top: -0.39px;
+
+    background: rgba(114, 114, 114, 0.5);
+    border-radius: 10px 10px 0px 0px;
+}
+
+.shadow {
+    position: absolute;
+    width: 320px;
+    height: 20px;
+    left: 1.61px;
+    top: 70px;
+
+    background: rgba(186, 157, 155, 0.31);
+    background-blend-mode: overlay;
+    filter: blur(8.28132px);
+}
+
+.shadow-board {
+    top: 90px;
+}
+
+.text-after-plans {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+}
+
+.text-after-plans-settings {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+
+    color: #000000;
+}
+
+.accept-plan-button {
+    width: 280px;
+    height: 50px;
+
+    background: #FF7F6B;
+    border: 1.28995px solid #FF7F6B;
+    border-radius: 10px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: -0.024em;
+
+    color: #FFFFFF;
+}
+
+.logos-info-plan {
+    margin-top: 24.79px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 24px;
+
+    /* width: 218px;
+    height: 46px; */
+}
+
+.logos-info-plan>div {
+    background-color: #f1f1f1;
+    width: 99px;
+    height: 46px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.logos-info-plan>img {
+    width: 46px;
+    height: 46px;
+
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.logos-info-plan>div>h1 {
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 10px;
+    /* or 100% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+
+    color: #727272;
+}
+
+.plan-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 49px;
+
+    position: absolute;
+    width: 280px;
+    height: 44px;
+    left: 20px;
+    top: 18px;
+}
+
+.plan-price-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 2px;
+
+    width: 97px;
+    height: 44px;
+}
+
+.days {
+    width: 97px;
+    height: 24px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 2px;
+    color: #000000;
+}
+
+.final-price {
+    width: 71px;
+    height: 18px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #727272;
+}
+
+.price {
+    font-weight: 500;
+    text-decoration-line: line-through;
+    margin-left: 2px;
+}
+
+.border {
+    margin-top: 38px;
+    width: 121px;
+    height: 44px;
+}
+
+.border-text {
+    width: 121px;
+    height: 24px;
+}
+
+.border-text-price {
+    width: 83px;
+    height: 18px;
+}
+
+.border-second {
+    margin-top: 38px;
+    width: 125px;
+    height: 44px;
+}
+
+.border-text-second {
+    width: 125px;
+    height: 24px;
+}
