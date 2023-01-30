@@ -45,10 +45,43 @@
                 <form action="post">
                     <div class="card-info">
                         <div class="card-number">
+                            <input type="text" class="card-number-enter-text" placeholder="Card number">
+                        </div>
 
+                        <div class="card-number">
+                            <input type="text" class="card-owner-enter-text" placeholder="Cardholder name">
+                        </div>
+
+                        <div class="card-cvv-date">
+                            <div class="card-date">
+                                <input type="text" class="card-date-enter-text" placeholder="MM/YY">
+                            </div>
+                            <div class="card-cvv">
+                                <input type="text" class="card-cvv-enter-text" placeholder="CVV">
+                            </div>
                         </div>
                     </div>
 
+                    <div class="bottom-info-card">
+                        <div class="cards-variants">
+                            <span class="cards-variants-text">
+                                Powered by Stripe
+                            </span>
+                            <div class="cards-variants-logos">
+                                <img src="/svg/mastercard.svg" alt="mastercard" class="logo-card">
+                                <img src="/svg/maestro.svg" alt="maestro" class="logo-card">
+                                <img src="/svg/visa.svg" alt="visa" class="logo-card">
+                                <img src="/svg/paypal.svg" alt="paypal" class="logo-card">
+                            </div>
+                        </div>
+                        <button class="get-plan-button">
+                            GET MY PLAN NOW
+                        </button>
+                        <div class="cancel-anytime">
+                            <img src="/svg/accept-logo.svg" alt="accept" class="cancel-anytime-logo">
+                            <span class="cancel-anytime-text">No commitments - Cancel anytime</span>
+                        </div>
+                    </div>
                 </form>
 
 

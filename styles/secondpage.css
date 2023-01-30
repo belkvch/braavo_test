@@ -183,8 +183,7 @@ body {
     position: absolute;
     width: 419.08px;
     height: 21.32px;
-    left: 40.92px;
-    top: 875.68px;
+    top: 721.68px;
 
     background: rgba(186, 157, 155, 0.31);
     background-blend-mode: overlay;
@@ -359,6 +358,11 @@ hr {
 
     width: 370.59px;
     height: 260.45px;
+    text-align: center;
+}
+
+form {
+    display: contents;
 }
 
 .card-number {
@@ -370,4 +374,193 @@ hr {
 
     width: 370.59px;
     height: 69.15px;
+}
+
+.input {
+    margin: 1px 0;
+    padding-left: 3%;
+    font-size: 14px;
+    background-color: rgb(234, 131, 5);
+}
+
+.card-number-enter-text {
+    box-sizing: border-box;
+    width: 370.59px;
+    height: 50px;
+    border: 2px solid #A8A8A8;
+    border-radius: 10px;
+}
+
+.card-owner-enter-text {
+    box-sizing: border-box;
+    width: 370.59px;
+    height: 50px;
+    border: 2px solid #A8A8A8;
+    border-radius: 10px;
+}
+
+.card-cvv-date {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 19px;
+
+    width: 370.59px;
+    height: 84.15px;
+}
+
+.card-date {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+
+    width: 175.79px;
+    height: 84.15px;
+
+}
+
+.card-cvv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+
+    width: 175.79px;
+    height: 84.15px;
+
+}
+
+.card-date-enter-text {
+    box-sizing: border-box;
+    width: 175.79px;
+    height: 50px;
+    border: 2px solid #A8A8A8;
+    border-radius: 10px;
+}
+
+.card-cvv-enter-text {
+    box-sizing: border-box;
+    width: 175.79px;
+    height: 50px;
+    border: 2px solid #A8A8A8;
+    border-radius: 10px;
+}
+
+
+input,
+textarea {
+    background: linear-gradient(111.68deg, rgba(255, 255, 255, 0.29) 7.59%, rgba(255, 255, 255, 0.39) 102.04%);
+    backdrop-filter: blur(3.92342px);
+
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.024em;
+    color: #A8A8A8;
+    text-indent: 15.3px;
+}
+
+input.card-number-enter-text {
+    background: transparent url(/svg/Card\ Icon.svg) no-repeat 331px center;
+}
+
+.bottom-info-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 21px;
+    height: 150px;
+    width: 320px;
+}
+
+.cards-variants {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 13px;
+
+    width: 134.87px;
+    height: 47.23px;
+}
+
+.cards-variants-text {
+    height: 23.23px;
+
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.cards-variants-logos {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 11px;
+}
+
+.logo-card {
+    width: 22px;
+    height: 20px;
+}
+
+.get-plan-button {
+    width: 320px;
+    height: 50px;
+
+    background: #FF7F6B;
+    border: 1.28995px solid #FF7F6B;
+    border-radius: 10px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: -0.024em;
+
+    color: #FFFFFF;
+}
+
+.cancel-anytime {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 2px;
+
+    width: 244px;
+    height: 16.19px;
+}
+
+.cancel-anytime-logo {
+    width: 15.48px;
+    height: 16.19px;
+}
+
+.cancel-anytime-text {
+    width: 228px;
+    height: 15px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #A8A8A8;
+
 }
