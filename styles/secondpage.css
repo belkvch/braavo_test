@@ -1,0 +1,373 @@
+/* poppins-100 - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 100;
+    src: local(''),
+        url('../fonts/poppins-v20-latin-100.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/poppins-v20-latin-100.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* poppins-200 - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    src: local(''),
+        url('../fonts/poppins-v20-latin-200.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/poppins-v20-latin-200.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* poppins-300 - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    src: local(''),
+        url('../fonts/poppins-v20-latin-300.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/poppins-v20-latin-300.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* poppins-regular - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+        url('../fonts/poppins-v20-latin-regular.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/poppins-v20-latin-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* poppins-500 - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+        url('../fonts/poppins-v20-latin-500.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/poppins-v20-latin-500.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* poppins-600 - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+        url('../fonts/poppins-v20-latin-600.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/poppins-v20-latin-600.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* poppins-700 - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+        url('../fonts/poppins-v20-latin-700.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/poppins-v20-latin-700.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* poppins-800 - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    src: local(''),
+        url('../fonts/poppins-v20-latin-800.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/poppins-v20-latin-800.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* poppins-900 - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    src: local(''),
+        url('../fonts/poppins-v20-latin-900.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/poppins-v20-latin-900.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: #000000;
+    background-color: #F4EEEE;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 0px;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 62px;
+    position: relative;
+}
+
+.text-about-offer {
+    width: 500px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 36px;
+    align-items: center;
+    text-align: center;
+    color: #191B20;
+}
+
+.upper-text {
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.payment-method-text {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #191B20;
+    margin-top: 30px;
+}
+
+.box-for-payment {
+    box-sizing: border-box;
+    width: 419.25px;
+    height: 729.58px;
+
+    background: linear-gradient(111.68deg, rgba(255, 255, 255, 0.29) 7.59%, rgba(255, 255, 255, 0.39) 102.04%);
+    border: 1.07002px solid rgba(255, 255, 255, 0.28);
+    backdrop-filter: blur(3.92342px);
+    border-radius: 8.39858px;
+    margin-bottom: 92.42px;
+    position: relative;
+}
+
+.shadow {
+    position: absolute;
+    width: 419.08px;
+    height: 21.32px;
+    left: 40.92px;
+    top: 875.68px;
+
+    background: rgba(186, 157, 155, 0.31);
+    background-blend-mode: overlay;
+    filter: blur(7.31184px);
+}
+
+.order {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 0px 3px;
+    gap: 20px;
+    position: absolute;
+    width: 370.59px;
+    height: 657.15px;
+    left: 24.71px;
+    top: 21.65px;
+}
+
+.text-order {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    width: 370.59px;
+    height: 101.63px;
+}
+
+.order-summary {
+    width: 172px;
+    height: 27px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+}
+
+.order-plan-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 48px;
+
+    width: 370.59px;
+    height: 23px;
+}
+
+.plan-days-text {
+    width: 257px;
+    height: 18px;
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.plan-price-text {
+    width: 96px;
+    height: 18px;
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    align-items: center;
+    text-align: right;
+}
+
+hr {
+    width: 370.59px;
+    height: 0px;
+}
+
+.after-discount-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 48px;
+
+    width: 370.59px;
+    height: 23px;
+}
+
+.total-after {
+    width: 172px;
+    height: 21px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+}
+
+.total-price {
+    width: 53px;
+    height: 21px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    align-items: center;
+    text-align: right;
+}
+
+.payment-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 14px;
+
+    width: 370.59px;
+    height: 17.9px;
+}
+
+.payment-info-text {
+    width: 231px;
+    height: 15px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+
+.secure-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 6px;
+
+    width: 139px;
+    height: 17.9px;
+}
+
+.logo-secure {
+    width: 13px;
+    height: 17.9px;
+}
+
+.secure-server-text {
+    width: 130px;
+    height: 14px;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FF8D7B;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 19px;
+
+    width: 370.59px;
+    height: 260.45px;
+}
+
+.card-number {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+
+    width: 370.59px;
+    height: 69.15px;
+}

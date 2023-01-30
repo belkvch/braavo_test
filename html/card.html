@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Braavo</title>
+    <link rel="stylesheet" href="/styles/reset.css">
+    <link rel="stylesheet" href="/styles/secondpage.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="text-about-offer">
+            <h1> Your special offer!</h1>
+            <p class="upper-text"> Get 50% off - Today only!</p>
+            <h1 class="payment-method-text">Payment Method</h1>
+        </div>
+
+        <div class="box-for-payment">
+            <div class="order">
+                <div class="text-order">
+                    <h1 class="order-summary">Order summary:</h1>
+                    <div class="order-plan-text">
+                        <span class="plan-days-text"><div id="plan_name"></div></span>
+                        <span class="plan-price-text">$<span id="plan_price"></span></span>
+                    </div>
+                    <hr>
+                    <div class="after-discount-text">
+                        <span class="total-after">Total after discount:</span>
+                        <span class="total-price">$<span id="plan_price_total"></span></span>
+                    </div>
+                </div>
+
+                <div class="payment-info">
+                    <span class="payment-info-text">Payment information</span>
+                    <div class="secure-info">
+                        <img src="/svg/secure.svg" alt="secure" class="logo-secure">
+                        <span class="secure-server-text">Secure Server</span>
+                    </div>
+                </div>
+
+                <form action="post">
+                    <div class="card-info">
+                        <div class="card-number">
+
+                        </div>
+                    </div>
+
+                </form>
+
+
+
+            </div>
+            <div class="shadow"></div>
+        </div>
+    </div>
+
+    <script>
+        let params = (new URL(document.location)).searchParams;
+        var plan_id = params.get("plan_id");
+        console.log(plan_id);
+
+        var plan_name = 'Plan';
+        var plan_price = 0.0;
+
+        if (plan_id == 1) {
+            plan_name = '7-day plan';
+            plan_price = 4.99;
+        } else {
+            if (plan_id == 2) {
+                plan_name = '1-month plan';
+                plan_price = 14.99;
+            } else {
+                if (plan_id == 3) {
+                    plan_name = '3-month plan';
+                    plan_price = 21.99;
+                } else {
+                    console.log('error');
+                    window.location.href = 'firstpage.html';
+                }
+            }
+        }
+        console.log(plan_name);
+        console.log(plan_price);
+        document.getElementById("plan_name").innerHTML = plan_name;
+        document.getElementById("plan_price").innerHTML = plan_price;
+        document.getElementById("plan_price_total").innerHTML = plan_price;
+
+    </script>
+</body>
+
+</html>
