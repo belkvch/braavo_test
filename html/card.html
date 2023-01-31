@@ -44,24 +44,41 @@
                     </div>
                 </div>
 
-                <form action="post">
+                <form action="post" name="form" onsubmit="return validateForm()">
                     <div class="card-info">
                         <div class="card-number">
-                            <input type="text" class="card-number-enter-text" id="cardNumber" placeholder="Card number"
-                                required>
+                            <input type="text" class="card-number-enter-text" name="cardNumber" id="cardNumber"
+                                placeholder="Card number">
+                            <div class="alert">
+                                <img src="/svg/alert-circle.svg" alt="alert" class="alert-logo">
+                                <span class="alert-text-warning">Please enter your card number</span>
+                            </div>
                         </div>
 
                         <div class="card-number">
-                            <input type="text" class="card-owner-enter-text" id="owner" placeholder="Cardholder name" required>
+                            <input type="text" class="card-owner-enter-text" name="owner" id="owner"
+                                placeholder="Cardholder name">
+                            <div class="alert">
+                                <img src="/svg/alert-circle.svg" alt="alert" class="alert-logo">
+                                <span class="alert-text-warning">Please enter your full name</span>
+                            </div>
                         </div>
 
                         <div class="card-cvv-date">
                             <div class="card-date">
-                                <input type="text" class="card-date-enter-text" id="expiration-date" placeholder="MM/YY"
-                                    required>
+                                <input type="text" class="card-date-enter-text" name="date" id="expiration-date"
+                                    placeholder="MM/YY">
+                                <div class="alert smaller">
+                                    <img src="/svg/alert-circle.svg" alt="alert" class="alert-logo">
+                                    <span class="alert-text-warning">Please enter an expiration month</span>
+                                </div>
                             </div>
                             <div class="card-cvv">
-                                <input type="text" class="card-cvv-enter-text" id="cvv" placeholder="CVV" required>
+                                <input type="text" class="card-cvv-enter-text" name="cvv" id="cvv" placeholder="CVV">
+                                <div class="alert smaller">
+                                    <img src="/svg/alert-circle.svg" alt="alert" class="alert-logo">
+                                    <span class="alert-text-warning">Please enter a security code (CVV)</span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -78,7 +95,7 @@
                                 <img src="/svg/paypal.svg" alt="paypal" class="logo-card">
                             </div>
                         </div>
-                        <button class="get-plan-button">
+                        <button class="get-plan-button" type="submit">
                             GET MY PLAN NOW
                         </button>
                         <div class="cancel-anytime">
@@ -97,6 +114,7 @@
 
     <script src="/scripts/select-plan.js"></script>
     <script src="/scripts/validation.js"></script>
+    <script src="/scripts/validation-border-style.js"></script>
 </body>
 
 </html>

@@ -396,8 +396,8 @@ form {
     width: 370.59px;
     height: 50px;
     border: 2px solid #A8A8A8;
-    border-radius: 10px;   
-     /* text-transform: uppercase; */
+    border-radius: 10px;
+    /* text-transform: uppercase; */
 }
 
 .card-cvv-date {
@@ -465,6 +465,18 @@ textarea {
     letter-spacing: -0.024em;
     color: #A8A8A8;
     text-indent: 15.3px;
+}
+
+input:focus:not(:placeholder-shown) {
+    border-bottom: 3px solid #00C2FF;
+}
+
+input:not(:focus):not(:placeholder-shown) {
+    border-bottom: 3px solid #25D482;
+}
+
+input[data-state="invalid"]  {
+    border-bottom: 3px solid #FF3932;
 }
 
 input.card-number-enter-text {
@@ -563,5 +575,34 @@ input.card-number-enter-text {
     letter-spacing: 0.02em;
 
     color: #A8A8A8;
+}
 
+.alert {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 5.88px;
+
+    width: 370.59px;
+    height: 15px;
+}
+
+.alert-logo {
+    width: 10.51px;
+    height: 10.51px;
+}
+
+.alert-text-warning {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 150%;
+    color: #FF3932;
+    text-align: left;
+}
+
+.smaller {
+    padding: 0px 9px 0px 0px;
+    width: 175.79px;
+    height: 30px;
 }
