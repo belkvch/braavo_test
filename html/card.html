@@ -49,7 +49,7 @@
                         <div class="card-number">
                             <input type="text" class="card-number-enter-text" name="cardNumber" id="cardNumber"
                                 placeholder="Card number">
-                            <div class="alert">
+                            <div class="alert" id="alertNumber">
                                 <img src="/svg/alert-circle.svg" alt="alert" class="alert-logo">
                                 <span class="alert-text-warning">Please enter your card number</span>
                             </div>
@@ -58,7 +58,7 @@
                         <div class="card-number">
                             <input type="text" class="card-owner-enter-text" name="owner" id="owner"
                                 placeholder="Cardholder name">
-                            <div class="alert">
+                            <div class="alert" id="alertOwner">
                                 <img src="/svg/alert-circle.svg" alt="alert" class="alert-logo">
                                 <span class="alert-text-warning">Please enter your full name</span>
                             </div>
@@ -68,14 +68,14 @@
                             <div class="card-date">
                                 <input type="text" class="card-date-enter-text" name="date" id="expiration-date"
                                     placeholder="MM/YY">
-                                <div class="alert smaller">
+                                <div class="alert smaller" id="alertDate">
                                     <img src="/svg/alert-circle.svg" alt="alert" class="alert-logo">
                                     <span class="alert-text-warning">Please enter an expiration month</span>
                                 </div>
                             </div>
                             <div class="card-cvv">
                                 <input type="text" class="card-cvv-enter-text" name="cvv" id="cvv" placeholder="CVV">
-                                <div class="alert smaller">
+                                <div class="alert smaller" id="alertCVV">
                                     <img src="/svg/alert-circle.svg" alt="alert" class="alert-logo">
                                     <span class="alert-text-warning">Please enter a security code (CVV)</span>
                                 </div>

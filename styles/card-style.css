@@ -475,7 +475,7 @@ input:not(:focus):not(:placeholder-shown) {
     border-bottom: 3px solid #25D482;
 }
 
-input[data-state="invalid"]  {
+input[data-state="invalid"] {
     border-bottom: 3px solid #FF3932;
 }
 
@@ -583,7 +583,7 @@ input.card-number-enter-text {
     align-items: center;
     padding: 0px;
     gap: 5.88px;
-
+    opacity: 0;
     width: 370.59px;
     height: 15px;
 }
