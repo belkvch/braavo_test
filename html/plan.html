@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Braavo</title>
     <link rel="stylesheet" href="/styles/reset.css">
-    <link rel="stylesheet" href="/styles/firstpage.css">
+    <link rel="stylesheet" href="/styles/plan-style.css">
 </head>
 
 <body>
@@ -20,8 +20,8 @@
             <form action=card.html id="get">
 
                 <div class="plans">
-                    <input type="radio" id="control_01" name="plan_id" value="1">
-                    <label for="control_01">
+                    <input type="radio" id="control_01" name="plan_id" value="1" checked>
+                    <label for="control_01" id="without_border">
                         <div class="one-plan">
                             <div class="plan-info">
                                 <div class="plan-price-info">
@@ -50,14 +50,16 @@
                 <div class="plans">
                     <input type="radio" id="control_02" name="plan_id" value="2">
                     <label for="control_02">
-                        <div class="one-plan board-text">
-                            <div class="optional-border"></div>
+                        <span class="text-in-optional-border">
+                            MOST POPULAR
+                        </span>
+                        <div class="one-plan">
                             <div class="plan-info">
-                                <div class="plan-price-info border">
+                                <div class="plan-price-info">
                                     <h1 class="days border-text">
                                         1-MONTH PLAN
                                     </h1>
-                                    <span class="final-price border-text-price">
+                                    <span class="final-price">
                                         <span class="final-price price">
                                             $28.56
                                         </span>
@@ -65,13 +67,13 @@
                                     </span>
                                 </div>
 
-                                <div class="plan-price-week price-border">
+                                <div class="plan-price-week">
                                     <span class="dollar">$</span>3
                                     <span class="dollar cents">75</span>
                                     <span class="mo">/ week</span>
                                 </div>
                             </div>
-                            <div class="shadow shadow-board"></div>
+                            <div class="shadow"></div>
                     </label>
                 </div>
         </div>
@@ -79,14 +81,16 @@
         <div class="plans">
             <input type="radio" id="control_03" name="plan_id" value="3">
             <label for="control_03">
-                <div class="one-plan board-text">
-                    <div class="optional-border"></div>
+                <span class="text-in-optional-border">
+                    BEST VALUE
+                </span>
+                <div class="one-plan">
                     <div class="plan-info">
-                        <div class="plan-price-info border-second">
+                        <div class="plan-price-info">
                             <h1 class="days border-text-second">
                                 3-MONTH PLAN
                             </h1>
-                            <span class="final-price border-text-price">
+                            <span class="final-price">
                                 <span class="final-price price">
                                     $42.84
                                 </span>
@@ -94,13 +98,13 @@
                             </span>
                         </div>
 
-                        <div class="plan-price-week price-border">
+                        <div class="plan-price-week">
                             <span class="dollar">$</span>1
                             <span class="dollar cents">69</span>
                             <span class="mo">/ week</span>
                         </div>
                     </div>
-                    <div class="shadow shadow-board"></div>
+                    <div class="shadow"></div>
             </label>
         </div>
     </div>
